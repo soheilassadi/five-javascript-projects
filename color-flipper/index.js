@@ -30,6 +30,7 @@ randomElement.addEventListener('click', () => {
   const g = Math.round(Math.random() * 255);
   const b = Math.round(Math.random() * 255);
   const color = `rgb(${r}, ${g}, ${b})`;
+  // nice to have the RGB combination in Console
   console.log(color);
   changePageColor(color);
 });
