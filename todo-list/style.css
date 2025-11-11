@@ -1,0 +1,12 @@
+.js-todo-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.js-todo-container div {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  font-size: 1.2em;
+}
